@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="nopecommerce Regression suite" parallel="false">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="URL" value="https://demo.nopcommerce.com/"></parameter>
+  <test name="Regression Test">
+    <classes>
+      <class name="com.qa.TestCases.UserRegistrationTest"/>
+    </classes>
+  </test> 
+</suite> 
